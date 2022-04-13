@@ -20,7 +20,7 @@ WiFi経由でOSC(Open Sound Control)信号を受信し、DMX信号を送信す�
 <br>
 <br>XLR3 レセプタクルコネクタ
 <br>https://www.soundhouse.co.jp/products/detail/item/45854/
-## ArduinoOTAでWiFiで書き換え
+## ArduinoOTA(WiFi経由で書き換え）
 WiFiのSSIDやパスワードや固定IPなどをプログラム内に書いた場合、うっかり間違った情報を書き込むとWiFiがつながらなります。吊り作品に使用することを想定しているので、それを避けたく、ESP32のEEPROMにあらかじめ書き込んだ情報を読み込むことにしています。EEPROMに書き込むプログラムは、<a href="https://github.com/mathrax-s/esp32-oscrcv-dmxsend/blob/main/Arduino/esp32_oscrcv_dmxsend/EEPROM.ino">EEPROM.ino</a>にあります。
 
 
