@@ -3,7 +3,7 @@
 <img src="https://github.com/mathrax-s/esp32-oscrcv-dmxsend/blob/main/image/device_1.jpg" width=40%></img>
 <img src="https://github.com/mathrax-s/esp32-oscrcv-dmxsend/blob/main/image/pd.png" width=40% ></img>
 
-WiFi経由でOSC(Open Sound Control)信号を受信し、DMX信号を送信するデバイスと、PureDataのセットです。
+WiFi経由でOSC(Open Sound Control)信号を受信してDMX信号を送信するデバイスと、そのデバイスにOSC送信するPureDataファイルのセットです。
 
 <br>ESP32ボード
 <br>https://akizukidenshi.com/catalog/g/gK-16108/
