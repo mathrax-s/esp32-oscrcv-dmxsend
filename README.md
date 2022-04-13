@@ -28,5 +28,4 @@ WiFi経由でOSC(Open Sound Control)信号を受信し、DMX信号を送信す�
 <br>いろいろなDMXライブラリがありますが、ESP用のライブラリにしました。
 
 ## FreeRTOS
-<br>ライブラリはありません。
-<br>複数のタスクがあって、ArduinoOTAを使う場合、それぞれのタスクに「ArduinoOTA.handle();」を記述することで書き換えができました。
+<br>ライブラリはありませんが、メモしておきます。複数のタスクとArduinoOTAを併用する場合、それぞれのタスクに「ArduinoOTA.handle();」を記述することで書き換えができました。
