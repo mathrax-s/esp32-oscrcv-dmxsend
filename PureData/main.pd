@@ -3,10 +3,10 @@
 #X obj 21 514 r osc-led;
 #X floatatom 405 262 5 0 0 0 - - -;
 #X obj 448 136 vsl 20 60 0 255 0 0 empty empty empty 0 -9 0 10 -204800
--1 -1 5300 1;
+-1 -1 0 1;
 #X floatatom 480 278 5 0 0 0 - - -;
 #X obj 437 388 list trim;
-#X msg 405 412 3 162;
+#X msg 405 412 3 0;
 #X obj 437 364 list prepend set;
 #X obj 448 202 t b f;
 #X obj 405 315 pack f f;
@@ -20,17 +20,17 @@
 #X obj 492 109 t b f;
 #X obj 480 248 int;
 #X floatatom 669 155 5 0 0 0 - - -;
-#X obj 669 82 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 668 71 tgl 30 0 empty empty empty 17 7 0 10 -4034 -1 -1 0 1
+;
 #X obj 669 280 vsl 20 60 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4189 1;
+-1 -1 0 1;
 #X floatatom 669 348 5 0 0 0 - - -;
 #X floatatom 235 262 5 0 0 0 - - -;
 #X obj 278 136 vsl 20 60 0 255 0 0 empty empty empty 0 -9 0 10 -204786
--1 -1 2100 1;
+-1 -1 0 1;
 #X floatatom 310 278 5 0 0 0 - - -;
 #X obj 267 388 list trim;
-#X msg 235 412 2 64;
+#X msg 235 412 2 0;
 #X obj 267 364 list prepend set;
 #X obj 278 202 t b f;
 #X obj 235 315 pack f f;
@@ -42,10 +42,10 @@
 #X obj 310 248 int;
 #X floatatom 65 262 5 0 0 0 - - -;
 #X obj 108 136 vsl 20 60 0 255 0 0 empty empty empty 0 -9 0 10 -261234
--1 -1 2000 1;
+-1 -1 0 1;
 #X floatatom 140 278 5 0 0 0 - - -;
 #X obj 97 388 list trim;
-#X msg 65 412 1 61;
+#X msg 65 412 1 0;
 #X obj 97 364 list prepend set;
 #X obj 108 202 t b f;
 #X obj 65 315 pack f f;
