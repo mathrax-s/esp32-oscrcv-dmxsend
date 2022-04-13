@@ -7,7 +7,7 @@ WiFi経由でOSC(Open Sound Control)信号を受信し、DMX信号を送信す�
 
 <br>ESP32ボード
 <br>https://akizukidenshi.com/catalog/g/gK-16108/
-<br>USBシリアルケーブル
+<br>USBシリアルケーブル（プログラム書き換え時のみ使用）
 <br>https://akizukidenshi.com/catalog/g/gM-05841/
 <br>
 <br>RS485ドライバ（3.3V MAX3485）
